@@ -25,7 +25,7 @@ int GetNumber(string message)
 }
 
 //метод для инициализации массива рандомными числами
-int[] InitArray(int dimension, int rightBound, int leftBound)
+int[] InitArray(int dimension, int leftBound, int rightBound)
 {
     int[] result = new int[dimension];
     Random rnd = new Random();
